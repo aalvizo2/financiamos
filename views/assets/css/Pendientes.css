@@ -1,0 +1,97 @@
+* {
+  
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+}
+
+@import url('https://fonts.googleapis.com/css2? family= Lato & family= Raleway:wght@600 & family= Roboto:ital,wght@1,900 & display=swap');
+
+.cliente {
+  
+  border: 1px solid;
+  list-style-type: none;
+  background-color: white;
+  color: black;
+  
+}
+
+.celda {
+  border: 1px solid;
+  border-radius: 5px;
+  border-color: gray;
+  width: 300px;
+  padding: 10px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  
+  color: black;
+  font-weight: 900;
+  font-size: 22px;
+  font-family: 'Roboto', sans-serif;
+  
+}
+
+.tabla {
+  border: 1px solid;
+  border-radius: 5px;
+  border-color: gray;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  margin-left: auto;
+  margin-right: auto;
+
+  
+}
+
+.fondo {
+  background-color: #EB811B;
+  height: 645px ;
+}
+
+.titulo {
+ background-color: #EB811B;
+ 
+ text-align: center;
+ padding-top: 44px;
+ color: white;
+ font-size: 40px;
+ font-family: 'Roboto', sans-serif;
+}
+
+.cuerpotabla {
+  border:1px solid #EB811B;
+}
+
+.botonatras {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 800;
+  font-size: 22px;
+  color: #EB811B;
+  background-color: white;
+  border-radius:50px;
+  padding: 15px;
+  box-shadow: 0 4px 10px black; 
+  cursor: pointer;  
+}
+
+.botonatras:hover {
+  background-color: #EB811B;
+  color: white;
+  font-family: 'Roboto', sans-serif;
+  
+}
+
+.boton {
+  height: 100px;
+  text-align: center;
+  align-items: center;
+  padding-top: 30px;
+  background-color: #EB811B;
+}
+
+
+
+
